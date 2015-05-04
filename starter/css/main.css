@@ -63,6 +63,7 @@ h2 {
 
 a {
   text-decoration: none;
+  visited: #3f729b;
 }
 .footer {
     display: block;
