@@ -9,17 +9,62 @@ body {
   margin: 0;
 }
 
-.page-home {
-  position: absolute;
-  top: 40px;
-  left: 10px;
-  width: 314px;
-  height: 78px;
-  background: url("css/images/brand.png") no-repeat 0 0;
-  text-indent: -9999em;
+p {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
-p {
-  font-size: 30px;
-  color: blue;
+.bg tile {
+  background-repeat: x;
+}
+
+.bg-repeat {
+  height: 280px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: x;
+}
+
+.box1 {
+  display: inline-block;
+  /*width: 450px;
+  margin: 50;
+  padding-left: 30;*/
+  padding-left: 200;
+  padding-top: 60;
+}
+
+.box2 {
+  width: 504px;
+  display: inline-block;
+  /*margin: 20px;*/
+  padding: 30px;
+  style: vertical-align: top;
+}
+
+.box3 {
+  display: inline-block;
+}
+
+h2 {
+  color: #06365f;
+  font-size: 27px;
+  font-style: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.box2 #white-box {
+  border: 20px;
+  width: 504px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 7px;
+  border: 2px;
+  border-color: #222222;
+}
+
+a {
+  text-decoration: none;
+}
+.footer {
+    display: block;
+    padding: 8px 6px;
 }
