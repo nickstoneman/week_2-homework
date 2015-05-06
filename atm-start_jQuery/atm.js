@@ -20,7 +20,10 @@ $(document).ready(function() {
     total2 = total2 + deposit;
     $("#balance2").html('$' + total2);
     });
+    $('account1').css("background-color", "red");
 })
+
+
 
 // $(document).ready(function() {
 //   $("#amount1").on('keyup', function(event) {
