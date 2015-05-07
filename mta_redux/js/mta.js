@@ -5,7 +5,8 @@ var mta = {
 };
 
 function menu() {
-  var response = prompt('Welcome to MTA!!! \n(m)ta or (q)uit');
+  // remove the prompt welcome
+  // var response = prompt('Welcome to MTA!!! \n(m)ta or (q)uit');
   while(response !== 'q') {
     var userInput = getUserInput();
     var tripLength = calculateStops(userInput);
