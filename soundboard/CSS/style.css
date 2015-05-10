@@ -1,21 +1,25 @@
+#soundboard_container {
+  margin: 30px;
+}
+
 .box {
-  display: inline-block; 
-  width: 200px;
+  display: inline-block;
+  width: 220px;
   height: 200px;
   border: 1px solid blue;
-  margin: 2% auto;
   /* display: inline-block; */
 }
 
 .box2 img {
   display: block;
-  width: 90%;
-  height: 90%;
+  width: 10%;
+  height: 10%;
   margin: 4% auto 4% auto;
 }
 
 /*div {
   background-color: rgba(0, 0, 255, 1);
 }*/
+
 
 
