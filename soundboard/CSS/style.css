@@ -1,3 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  /*width: 800px;*/
+  min-height: 400px;
+  margin: 20px auto;
+  color: #333;
+}
+
 #soundboard_container {
   margin: 30px;
 }
@@ -6,14 +32,17 @@
   display: inline-block;
   width: 220px;
   height: 200px;
-  border: 1px solid blue;
+  border: 2px solid grey;
+  border-radius: 10px;
+  /*background-color: rgba(142, 228, 219, 0.5);*/
+  background-color: rgba(146, 125, 68, 0.5);
   /* display: inline-block; */
 }
 
 .box2 img {
   display: block;
-  width: 10%;
-  height: 10%;
+  width: 90%;
+  height: 90%;
   margin: 4% auto 4% auto;
 }
 
