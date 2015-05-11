@@ -6,8 +6,6 @@ $(document).ready(function() {
 console.log('jQuery works!');
 
 
-
-
   $('.greeting').on("click", function() {
     console.log("click");
     var output = $(this).attr('id'); 
@@ -16,29 +14,28 @@ console.log('jQuery works!');
     
   });
 
-// Sounds
-$('#ebi').on("click", function(){
-    var sushiEbi = soundmanager.createSound({
-        url: "audiofiles/two_shrimp_sushi_-_yes.mp3"
-        });
-    sushiEbi.play();
-    })
+// Sounds - switched to inline player.js
 
-$('.tamago').on("click", function(){
-    var sushiTamago = soundmanager.createSound({
-        url: "path to file.mp3"
-        });
-    sushiTamago.play();
-    })
+// $('#ebi').on("click", function(){
+//     var sushiEbi = soundmanager.createSound({
+//         url: "audiofiles/two_shrimp_sushi_-_yes.mp3"
+//         });
+//     sushiEbi.play();
+//     })
 
-$('.gunkan_maki').on("click", function(){
-    var gunkan_maki = soundmanager.createSound({
-        url: "path to file.mp3"
-        });
-    sushiGunkan_maki.play();
-    })
+// $('.tamago').on("click", function(){
+//     var sushiTamago = soundmanager.createSound({
+//         url: "path to file.mp3"
+//         });
+//     sushiTamago.play();
+//     })
 
-
+// $('.gunkan_maki').on("click", function(){
+//     var gunkan_maki = soundmanager.createSound({
+//         url: "path to file.mp3"
+//         });
+//     sushiGunkan_maki.play();
+//     })
 
 
 });
