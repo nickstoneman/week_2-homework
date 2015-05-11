@@ -5,6 +5,23 @@ html, body {
   margin: 0;
 }
 
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+ol {
+  color: white;
+  font-size: 2em;
+}
+
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
@@ -46,6 +63,13 @@ html, body {
   margin: 4% auto 4% auto;
 }
 
+#orderContainer {
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: rgba(146, 125, 68, 0.5);
+  margin: 30px;
+  padding-left: 30px;
+}
 /*div {
   background-color: rgba(0, 0, 255, 1);
 }*/
